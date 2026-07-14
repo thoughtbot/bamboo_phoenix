@@ -38,6 +38,7 @@ defmodule BambooPhoenix.MixProject do
   defp deps do
     [
       {:bamboo, ">= 2.0.0"},
+      {:jason, "~> 1.4"},
       {:phoenix, ">= 1.3.0"},
       {:phoenix_html, "~> 2.2", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
